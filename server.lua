@@ -20,6 +20,8 @@ QBCore.Functions.CreateCallback('qb-scoreboard:server:GetScoreboardData', functi
         ambulanceCount = 0,
         mechanicCount = 0,
         taxiCount = 0,
+        realestateCount = 0,
+        lawyerCount = 0,
         job = job,
         duty = duty,
         grade = grade
@@ -42,6 +44,12 @@ QBCore.Functions.CreateCallback('qb-scoreboard:server:GetScoreboardData', functi
             end
             if v.PlayerData.job.name == 'taxi' and v.PlayerData.job.onduty then
                 info.taxiCount += 1
+            end
+            if v.PlayerData.job.name == 'realestate' and v.PlayerData.job.onduty then
+                info.realestateCount += 1
+            end
+            if v.PlayerData.job.name == 'lawyer' and v.PlayerData.job.onduty then
+                info.lawyerCount += 1
             end
 
 

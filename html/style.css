@@ -15,11 +15,9 @@
   top: 15vh;
   margin: 1vh;
   border-radius: 1rem;
-  border: #dc143c 1px solid;
+  border: 2px #dc143c solid;
+  box-shadow: 0 0 10px #dc143c, inset  0 0 30px #dc143c;
 }
-
-
-
 
 .scoreboard-header {
   position: relative;
@@ -89,11 +87,11 @@
 .job-info-conatiner{
   display: flex;
   justify-content: space-evenly;
-  background-color: #dc143c;
-  border-radius: 0.8rem;
+  /* background-color: #dc143c;
+  border-radius: 0.8rem; */
   margin: 10px;
-  padding: 10px;
-
+  /* padding: 10px 0; */
+  width: 95%;
 }
 
 .job-info{
@@ -104,17 +102,50 @@
   height: 3rem;
   width: 4rem;
   border-radius: 0.5rem;
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  border: 2px #dc143c solid;
+  box-shadow: 0 0 10px #dc143c, inset  0 0 20px #dc143c;
+  color: white;
 }
+
+#job-taxi {
+  border: 2px #dcd914 solid;
+  box-shadow: 0 0 10px #dcd914, inset  0 0 20px #dcd914;
+}
+
+#job-ambulance {
+  border: 2px #14dc67 solid;
+  box-shadow: 0 0 10px #14dc67, inset  0 0 20px #14dc67;
+}
+
+#job-cops {
+  border: 2px #1482dc solid;
+  box-shadow: 0 0 10px #1482dc, inset  0 0 20px #1482dc;
+}
+
+#job-mechanic {
+  border: 2px #dc8514 solid;
+  box-shadow: 0 0 10px #dc8514, inset  0 0 20px #dc8514;
+}
+
+#job-realestate {
+  border: 2px #d61ba7 solid;
+  box-shadow: 0 0 10px #d61ba7, inset  0 0 20px #d61ba7;
+}
+
+#job-lawyer {
+  border: 2px #967868 solid;
+  box-shadow: 0 0 10px #967868, inset  0 0 20px #967868;
+}
+
 .job-label{
   margin-top: 5px;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .job-info i{
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .status-value{
@@ -146,10 +177,10 @@
  }
  
 .player-job-title{
-   display: flex;
-   justify-content: space-between;
-   font-size: 1.3vh;
-   font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  /* font-size: 1.3vh;
+  font-weight: 300; */
  }
 
  #player-rank{

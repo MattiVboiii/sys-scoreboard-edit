@@ -20,6 +20,8 @@ const Open = (data) => {
   $("#currentAmbulance").html(data.ambulanceCount);
   $("#currentMechanic").html(data.mechanicCount);
   $("#currentTaxi").html(data.taxiCount);
+  $("#currentRealEstate").html(data.realestateCount);
+  $("#currentLawyer").html(data.lawyerCount);
   $("#ping-value").html(data.ping);
   $("#name-value").html(data.name);
   $("#player-job").html(data.job);
